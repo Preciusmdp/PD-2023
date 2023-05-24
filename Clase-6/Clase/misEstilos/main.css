@@ -1,4 +1,4 @@
-/* Selector de etiqueta por tag*/
+
 
 /* SINTAXIS BASICA
 = nombreSelector {
@@ -6,6 +6,47 @@
     propiedad: valor;
 }
 */
+
+/* SELECTOR DE ETIQUETA POR TAG */
 h2 {
     color: red;
 }
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    color: pink;
+    background-color: black;
+}
+
+/* SELECTOR UNIVERSAL (SE APLICA A TODA LA PAGINA) */
+* {
+    font-size: 35px;
+}
+
+/* SELECTOR POR IDENTIFICADOR (identificador "id")*/
+#seccion1 {
+    font-size: 10px;
+}
+
+/* SELECTOR POR CLASE */
+
+.fondoVerde {
+    background-color: green;
+}
+
+.textoAqua {
+    color: aquamarine;
+}
+
+.letraGrande {
+    font-size: 200px;
+} 
+
+/* al usar varios identificadores, tiene mas importancia el 
+-1 id 
+-2 class 
+-3 etiqueta universal */
+/* La Especificidad en CSS*/
