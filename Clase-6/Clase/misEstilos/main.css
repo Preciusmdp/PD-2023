@@ -1,0 +1,11 @@
+/* Selector de etiqueta por tag*/
+
+/* SINTAXIS BASICA
+= nombreSelector {
+    propiedad: valor;
+    propiedad: valor;
+}
+*/
+h2 {
+    color: red;
+}
