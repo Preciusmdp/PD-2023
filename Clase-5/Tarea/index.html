@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicio de CSS</title>
+	</head>
+	<body>
+		<h3 style="color: blueviolet;">Información sobre el producto</h3> <!-- 1- texto h3 en color violeta-->
+
+		<div>
+			<p>
+				Lorem ipsum dolor sit amet, <a href="#">consectetuer adipiscing elit</a>. Praesent blandit nibh at felis. Sed nec diam in dolor vestibulum aliquet. Duis ullamcorper, nisi non facilisis molestie, <em>lorem sem aliquam nulla</em>, id lacinia velit mi vestibulum enim.
+		    </p>
+
+		</div>
+
+		<div>
+			<p>
+				Phasellus eu velit sed lorem sodales egestas. Ut feugiat. <span><a href="#">Donec porttitor</a>, magna eu varius luctus,</span> metus massa tristique massa, in imperdiet est velit vel magna. Phasellus erat. Duis risus. <a href="#">Maecenas dictum</a>, nibh vitae pellentesque auctor, tellus velit consectetuer tellus, tempor pretium felis tellus at metus.
+			</p>
+
+			<p>
+				Cum sociis natoque <em>penatibus et magnis</em> dis parturient montes, nascetur ridiculus mus. Proin aliquam convallis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc aliquet. Sed eu metus. Duis justo.
+			</p>
+
+			<p style="text-transform: uppercase;"> <!-- 5- Investigar text-transform
+			Es la propiedad que controla las mayusculas de un texto 
+				* capitalize: Transforma el primer caracter de cada palabra en mayuscula
+				* uppercase: Transforma todos los caracteres a mayuscula
+				* lowercase: Transforma todos los caracteres a minuscula
+			-->
+				Donec facilisis blandit velit. Vestibulum nisi. Proin volutpat, <em>enim id iaculis congue</em>, orci justo ultrices tortor, <a href="#">quis lacinia eros libero in eros</a>. Sed malesuada dui vel quam. Integer at eros.
+			</p>
+		</div>
+
+	</body>
+</html>
+
+<style>
+
+    p { 
+        font-size: 42px;
+    } /* 2- Todos <p> en tamaño de de letra 42 pixeles*/
+    
+	em {
+        font-weight: bold;
+    } /* 3- Todos los <em> tengan la letra en negrita*/ 
+	/*Investigar  font-weight 
+	El font-weigth define que tan grueso o delgado se muestran los caracteres de un texto
+	- normal: es el que viene por defecto
+	- lighter: es mas fino que el grosor normal
+	- bold: esta en negrita
+	- bolder: esta en negrita mas gruesa
+	- 100 al 900: define desde lo mas fino a lo mas grueso (400 es normal 700 es negrita[bold]) */
+	
+	a {
+		background-color: rgba(255, 145, 0, 0.849);
+	} /* 4- Investigar Background / Background-color
+	- El Background se utiliza para agregar efectos de fondos a los elementos
+	- El Background-color se utiliza para especificar el color de fondo de un elemento
+	  * en este se puede usar la propiedad de "opacity" que especifica la opacidad o transparencia de un elemto y la cual se aplica al fondo y al texto
+	  Ej: opacity: 0.4; (define un 40% de opacidad)
+	  * O se puede aplicar transparencia usando RGBA (Red-Green-Blue-Alfa) esta estable la opacidad o transparencia para el color de fondo sin aplicarse al texto.
+	  Ej: background-color: rgba(140, 0, 0, 0.23); esto seria el color rojo en un 23% de opacidad
+	*/
+</style>
