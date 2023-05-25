@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
     
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Selectores en CSS</title>
+        
+        <link rel="stylesheet" type="text/css" href="./EstilosCss/CssTarea6.css"> 
+
+        <title>Selectores en CSS (Tarea6)</title>
     </head>
+    
     <body>
-        <header>
+        
+        <header> 
+            <!-- 1) Pintar de color rojo el texto de los ítems del menú principal 
+            (el que está ubicado en el header) y evitar que aparezca el punteo en cada ítem de esta lista  -->
             <nav id="menuPrincipal">
-                <ul>
+                <ul id="ulHeader">
                     <li>HOME</li>
                     <li>¿Quienes somos?</li>
                     <li>Contacto</li>
                 </ul>
             </nav>
         </header>
+        
         <main>
             <section>
-                <h2>Lista para utilizar unidades <strong>em</strong></h2>
+                <h2 id="em">Lista para utilizar unidades <strong>em</strong></h2>
                 <ul>
                     <li>Item 1                        
                         <ul>
@@ -59,6 +67,7 @@
                 </ol>
             </section> 
         </main>
+        
         <footer>
             <section>
                 <p>Todos los derechos reservados</p>
@@ -67,5 +76,7 @@
                 <p>Desarrollado por Curso Potrero Digital - Desarrollador Front-End</p>
             </section>
         </footer>
+    
     </body>
-</html>
+
+    </html>

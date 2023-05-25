@@ -1,0 +1,45 @@
+/* 1) Pintar de color rojo el texto de los ítems del menú principal 
+(el que está ubicado en el header) y evitar que aparezca el punteo en cada ítem de esta lista */
+#ulHeader {
+    color: red;
+    list-style-type: none;
+}
+/* "list-style" se utiliza para aplicar estilo CSS a las listas.
+Las listas tienen tres propiedades especificas
+- list-style-type: Define el tipo de viñeta para la lista, o que no aparezxa ninguno.
+- list-style-position: define donde se coloca el marcador en relacion a la caja principal
+- list-style-image: permite utilizar una imagen personalizada para la viñeta.
+*/
+
+
+
+/* 2)Pintar el fondo de todas las listas que aparecen en el main, de color azul y la letra de color blanco. */
+main li {
+    color: white;
+    background-color: blue;
+}
+/* SELECTOR DESCENDIENTE 
+Selecciona los elementos que se encuentran dentro de otros elementos. 
+Un elemento es descendiente de otro cuando se encuentra entre las etiquetas de apertura 
+y de cierre del otro elemento.*/
+
+
+
+/* 3) Colocar un tamaño de fuente para el titulo principal de la primera sección del main de 38px. 
+Luego definir un tamaño de fuente para todos los h2 de 20px. */
+#em {
+    font-size: 38px;
+}
+h2 {
+    font-size: 20px;
+}
+/* ESPECIFICIDAD 
+Es la manera mediante la cual los navegadores deciden qué valores de una propiedad CSS 
+son más relevantes para un elemento y, por lo tanto, serán aplicados.
+Lista de incrementacion en funcion de la especifidad
+- Selectores de tipo 
+- Selectores de clase
+- Selectores de Id 
+
+En el ejercicio el h2 es un selector de tipo, 
+y como #em es un delector de id tiene mas jerarquia en su utilizacion*/
