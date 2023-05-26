@@ -68,17 +68,31 @@ Realizando la prueba con un class y un id. el id toma mayor relevancia por el se
 
 /* 5) Colocar un tamaño de fuente para la primera sección que está en el main de 25px. Adicionalmente, colocar, para la primera lista en el main (la que esta abajo del título "Lista para utilizar unidades em"), un tamaño de Font para los ítems de 2em. */
 
+#seccion1 {
+    font-size: 25px;
+}
+.it1 {
+    font-size: 2em;
+}
+
+/* Por la especificidad se aplica el id y despues la class. La diferencia entre pixeles y em, es que los pixeles son unidades de longitud absolutas, y los em son unidades de longitus de relativas, el em es el tamaño de letra de mi elemento padre 2em es dos veces ese tamaño (Los elementos <li> dentro de un elemento <ul> con una clase de ems toman el tamaño con respecto a su elemento padre. Por lo tanto, en cada nivel de anidamiento sucesivo, el tamaño de letra aumenta progresivamente, porque en cada uno el tamaño de letra está establecido ej: en 1.3em (1,3 veces el tamaño de letra de su elemento padre).)*/
 
 
 
-
-/* Por la especificidad  */
-
+/* 6)Colocar un tamaño de fuente para la segunda sección que está en el main de 30px. Adicionalmente, colocar para la segunda lista en el main (la que esta abajo del título "Lista para utilizar unidades rem"), un tamaño de Font para los ítems de 5rem. */
 
 
+#seccion2 {
+    font-size: 30px;
+}
+.it2{
+    font-size: 5rem;
+}
 
 
-/*6)	Opcional avanzado) Colocar un tamaño de fuente para la segunda sección que está en el main de 30px. Adicionalmente, colocar para la segunda lista en el main (la que esta abajo del título "Lista para utilizar unidades rem"), un tamaño de Font para los ítems de 5rem. 
-
-#¿Qué es lo que sucede? Dejar un comentario en el archivo.
+/* la unidad rem significa «el tamaño de letra del elemento raíz». ('rem' viene de «root em»). Los elementos <li> dentro de un elemento <ul> con una clase de rems toman su tamaño del elemento raíz (<html>). Esto significa que el tamaño de letra no aumenta en cada nivel sucesivo de anidamiento.
 */
+
+/* Estos ultimos dos ejercicios no entendi si estan bien realizados o no, ya que no termino de comprender claramente la consigna. si la proxima clase puede explicarme esto un poco mejor seria genial, ya que no termine de entender donde debo aplicarlo extactamente*/
+
+/* Rocio Saganias*/
