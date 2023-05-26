@@ -43,3 +43,42 @@ Lista de incrementacion en funcion de la especifidad
 
 En el ejercicio el h2 es un selector de tipo, 
 y como #em es un delector de id tiene mas jerarquia en su utilizacion*/
+
+
+
+/* 4) Colocar un color de fondo para el titulo principal de la segunda sección del main de color rojo. Luego definir a través de otra regla de css, 
+un color para este mismo elemento, pero ahora de color amarillo. */
+
+.tituloSeccion2 {
+    background-color: rgb(189, 24, 24);
+}
+.tituloSeccion2 {
+    background-color: darkkhaki;
+}
+#titulo2 {
+    background-color: gold;
+}
+
+/* En el caso de usar dos veces la misma clase con diferentes valores en el atributo, se aplica el ultimo utilizado. Si invierto el orden la ultima en el codigo sera la que tome por defecto.
+Realizando la prueba con un class y un id. el id toma mayor relevancia por el sentido de especificidad */  
+
+
+
+/* OPCIONAL AVANZADO */
+
+/* 5) Colocar un tamaño de fuente para la primera sección que está en el main de 25px. Adicionalmente, colocar, para la primera lista en el main (la que esta abajo del título "Lista para utilizar unidades em"), un tamaño de Font para los ítems de 2em. */
+
+
+
+
+
+/* Por la especificidad  */
+
+
+
+
+
+/*6)	Opcional avanzado) Colocar un tamaño de fuente para la segunda sección que está en el main de 30px. Adicionalmente, colocar para la segunda lista en el main (la que esta abajo del título "Lista para utilizar unidades rem"), un tamaño de Font para los ítems de 5rem. 
+
+#¿Qué es lo que sucede? Dejar un comentario en el archivo.
+*/
