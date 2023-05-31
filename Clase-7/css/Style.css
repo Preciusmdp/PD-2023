@@ -1,12 +1,13 @@
-/*Selector combinado*/
-h1, h2 {
-    color: blue;
-    background-color: tomato;
+:root{
+    --rosa: rgb(230, 48, 160);
 }
 
-h1 {
-    background-color: bisque;
+/*Selector combinado*/
+h1, h2 {
+    color: var(--rosa);
+    background-color: rgb(174, 194, 59);
 }
+
 
 /*Concepto herencia*/
 footer, .letraRoja, #primeraSeccion {
@@ -15,7 +16,7 @@ footer, .letraRoja, #primeraSeccion {
 
 /*Concepto de cascada*/
 h2 {
-    color: lime;
+    color: rgb(26, 51, 160);
 }
 
 /*selector descendente*/
