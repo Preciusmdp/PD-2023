@@ -1,0 +1,55 @@
+/*Selector combinado*/
+h1, h2 {
+    color: blue;
+    background-color: tomato;
+}
+
+h1 {
+    background-color: bisque;
+}
+
+/*Concepto herencia*/
+footer, .letraRoja, #primeraSeccion {
+    color: red;
+}
+
+/*Concepto de cascada*/
+h2 {
+    color: lime;
+}
+
+/*selector descendente*/
+header nav ul li {
+    color: rgb(28, 212, 120);
+    background-color: rgb(180, 72, 72);
+    padding: 10px;
+    margin: 2px;
+    width: 30%;
+    height: 1.5rem;
+    border-radius: 50px;
+}
+
+/* "^" es alt + 94 */
+/* "[" alt + 91   "]" alt + 93*/
+
+
+
+/* Utilizacion de pseudoclases ":"*/
+#segundaSeccion ul li:first-child, #segundaSeccion ul li:last-child {
+    color: blue;
+} /*first-child es primer hijos y last-child es ultimo hijo*/
+
+footer:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+
+/* pseudoelementos*/
+h1::after, h1::before {
+    content: '🔥';
+}
+
+h1:hover {
+    background-color: aquamarine;
+}
