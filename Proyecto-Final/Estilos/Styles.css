@@ -1,0 +1,81 @@
+
+*, *::before, *::after{ 
+    box-sizing: border-box; /
+    margin: 0px; 
+    padding: 0px; 
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+:root{
+    background-color: rgb(238, 232, 214);
+    /* las variables se marcan con un '--' inicial */
+    --negro : rgb(0, 0, 0);  
+    --gris : rgba(255, 255, 255, .5);
+    --violetaClaro : rgba(194, 153, 232, 0.7);
+    --violeta : rgb(60, 6, 110);
+    --azulFocus : rgb(11, 85, 243);
+    --celeste : rgba(38, 184, 228, 0.418);
+}
+
+body{
+    /* con CSS puedo poner poner imagens de fondo locales (o sea, que están en una carpeta del proyecto) o directamente desde una URL */
+    background-image: url();
+    min-height: 100vh; 
+    min-width: 100vw; 
+    overflow-x: hidden;
+    position: absolute; 
+    top: 0;
+}
+
+header{
+    width: 100%; 
+    height: 40px;
+}
+
+header nav ul li{
+    /*display: flex;*/
+    float: left;
+    /*justify-content: end;*/
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none; /* le quita el subrayado*/
+    padding: 30px 45px 20 px 15px;
+    display: inline-block;
+    color: #2d3646;
+    border: 3px;
+    margin: 10px;
+    position: relative;
+}
+
+main{
+    width: 60%; 
+    float: left;
+    clear: both;
+    text-align: center;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+footer{ 
+    background-color: var(--celeste); 
+    clear: both;
+    position: absolute; 
+    bottom: 0; /*con esta propiedad y valor siempre va a estar al fondo de la pantalla*/
+    width: 100%; /*ocupa todo el largo horizontal de la pantalla*/
+    height: 3rem; /*ancho vertical*/
+    text-align: center; /*centra el texto*/
+}
+
+#Lobo1{
+    width: 150px;
+    float: left;
+    padding-right: 20px;
+
+    max-width: 30%;
+    margin: 12px;
+    padding: 4px;
+    border: 3px solid black; 
+    border-radius: 10px; 
+}
