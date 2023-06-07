@@ -4,3 +4,39 @@
     box-sizing: border-box;
 }
 
+header{
+    display: flex;
+    flex-direction:initial ;
+}
+
+.colorRojo {
+    background-color: red;
+}
+
+.colorAzul {
+    background-color: blue;
+}
+
+.colorVerde{
+    background-color: green;
+}
+
+.divCuadrado{
+    width: 250px;
+    height: 250px;
+    /* display: inline cambia el orden por defecto de los div, y los cambia a inline */
+    border: 6px solid rgb(14, 14, 14);
+    display: inline-block;
+
+    /*Se mueve como las agujas del reloj ARRIBA DERECHA ABAJO IZQUIERDA*/
+    padding: 50px 20px 10px 5px; /*es el espacio entre el contenido y el borde interno*/
+    margin: 60px 40px 30px 10px; /* es el espacio desde el borde hacia afuera*/
+}
+
+a {
+    display: block;
+}
+
+.enlaceOculto{
+    display: none;
+}
