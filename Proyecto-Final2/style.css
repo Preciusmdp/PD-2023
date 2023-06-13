@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,400;1,700&family=Bebas+Neue&family=Montserrat:ital,wght@0,500;1,800&family=Open+Sans:ital,wght@0,800;1,400&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+/* 
+font-family: 'Arvo', serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Cherry Bomb One', cursive;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;  
+    color: black;
+    font-size: 1.3em ;
+    line-height: 1.5em;
+}
+
+.header{  
+    background-color: rgb(231, 231, 220);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    }
+
+.barra{
+
+   
+}  
+.logo{
+        width: 20%;
+    
+    }
+
+.logo img{
+        max-width: 70%;
+    }
+
+.menu{
+        width: 80%;  
+        background-color: rgba(224, 224, 153, 0.541);
+        display: flex;
+        justify-content: center;
+    }
+
+header nav ul li{
+        display: inline-block; 
+        position: relative;
+        padding: 10px; /*espacio entre el contenido y su caja*/
+        margin: 3px; /*separacion entre una caja y otra*/
+        border-radius: 10px; 
+        border: 2px solid rgba(22, 22, 21, 0.185);
+    }
+
+
+
+p{
+    margin-bottom: 1.6em;
+}
+.content{
+    width: 85%;
+    max-width: 800px;
+    margin: 0 auto; 
+}
