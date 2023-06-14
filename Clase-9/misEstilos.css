@@ -35,14 +35,24 @@ a {
 .enlaceOcultable {
     display: none;
 }
-
+/*---------------------------------CLASE 9 ---------------------------------*/
 /* COMIENZO DE FLEXBOX */
 header {
     display: flex;
     flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
 }
 header nav ul{
     list-style: none; /*saca el punteado*/
     display: flex; /*siempre se van para el costado*/
-    
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+
+}
+h1{ 
+    border: 1px solid black;
 }
