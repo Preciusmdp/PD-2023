@@ -5,29 +5,65 @@
 }
 
 header{
-    background-color: aquamarine;
     display: flex;
+    height: auto;
+    width: 100%;
+    position: relative;
 }
 
 .logo{
-    width: 20%;
-    background-color: coral;
+    width: 40%;
+    background-color: rgba(211, 119, 206, 0.459);
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    margin: 0 30 px;
+    padding: 15px 50px; 
+    font-weight: bold;
+}
+
+.logo:hover{
+   background-image: url(./Images/faro.jpg);
 }
 
 .navbar{
     width: 80%;
-    background-color: cornflowerblue;
-    
+    background-color: rgb(214, 218, 180);
+    display: flex;
 }
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    padding: 25px;
+   
+}
+
 header nav ul li a {
+    color: rgb(50, 23, 172);
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: x-large;
+    margin: 0 30 px;
+    padding: 8px 50px; 
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 0.5s;
  }
 
+ header nav a:hover{
+    color: darkorange;
+    background-color: black;
+ }
 
-.grid-content{
-    background-color: rgb(23, 66, 66);
+/*------------------------------------------------------------*/
+
+/*.grid-content{
+    background-color: rgb(170, 224, 224);
     display: grid;
-    gap: 10px;
+    justify-items: center;
+    gap: 20px;
     
     grid-template-areas: 
                           'general general'
@@ -37,35 +73,29 @@ header nav ul li a {
                           'religion religion';
 }
 
+.grid-content .divGenerales{
+    text-align: center;
+    background-color: rgb(198, 206, 151);
+    font-size: 30px;
+}
+.grid-content .general{
+    grid-area: general;
+}
+.grid-content .cultura{
+    grid-area: cultura;
+   
+}
+.grid-content .paseos{
+    grid-area: paseos;
+}
+.grid-content .familia{
+    grid-area: familia;
+}
+.grid-content .religion{
+    grid-area: religion;
+}*/
 
 footer{
     background-color: brown;
     display: grid;
-}
-
-
-
-
-
-.grid-content .item{
-    text-align: center;
-    background-color: rgb(26, 85, 85);
-    font-size: 30px;
-}
-.grid-content .item-header{
-    grid-area: header;
-}
-.grid-content .item-menu{
-    grid-area: menu;
-   /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;*/
-}
-.grid-content .item-main{
-    grid-area: main;
-}
-.grid-content .item-aside{
-    grid-area: aside;
-}
-.grid-content .item-footer{
-    grid-area: footer;
 }
