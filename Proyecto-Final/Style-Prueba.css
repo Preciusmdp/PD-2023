@@ -65,7 +65,7 @@ header nav{
     background-color: rgb(247, 242, 243);
 }
 
-header nav ul li{
+header nav ul li{ 
     display: inline-block; /* en una linea en bloque*/
     position: relative;
     background-color: rgb(231, 228, 223); /*colon del fondo de la caja*/

@@ -4,3 +4,68 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: aquamarine;
+    display: flex;
+}
+
+.logo{
+    width: 20%;
+    background-color: coral;
+}
+
+.navbar{
+    width: 80%;
+    background-color: cornflowerblue;
+    
+}
+header nav ul li a {
+    text-decoration: none;
+ }
+
+
+.grid-content{
+    background-color: rgb(23, 66, 66);
+    display: grid;
+    gap: 10px;
+    
+    grid-template-areas: 
+                          'general general'
+                          'cultura cultura'
+                          'paseos paseos'
+                          'familia familia'
+                          'religion religion';
+}
+
+
+footer{
+    background-color: brown;
+    display: grid;
+}
+
+
+
+
+
+.grid-content .item{
+    text-align: center;
+    background-color: rgb(26, 85, 85);
+    font-size: 30px;
+}
+.grid-content .item-header{
+    grid-area: header;
+}
+.grid-content .item-menu{
+    grid-area: menu;
+   /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;*/
+}
+.grid-content .item-main{
+    grid-area: main;
+}
+.grid-content .item-aside{
+    grid-area: aside;
+}
+.grid-content .item-footer{
+    grid-area: footer;
+}
