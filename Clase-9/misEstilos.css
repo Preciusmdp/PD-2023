@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Oswald&display=swap');
+/*font-family: 'Bebas Neue', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Oswald', sans-serif;*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 .colorRojo {
     background-color: red;
 }
@@ -13,19 +24,20 @@
 .divCuadrado {
     width: 250px;
     height: 250px;
+
     /* Borde General para todo el elemento */
     border: 4px solid black;
+
     /* Padding general */
-    padding: 50px;
-    /* Padding de dos valores: 50px => arriba y abajo, 20px => izquierda y derecha */
-    padding: 50px 20px;
-    /* Padding de 4 valores => en el sentido de las agujas del reloj (ARRIBA - DERECHA - ABAJO - IZQUIERDA) */
-    padding: 10px 50px 150px 300px;
+    padding: 30px;
+
     /* Margin general */
     margin: 50px;
     margin: 50px 80px;
     margin: 10px 50px 150px 300px;
+    
     /*display: inline;*/
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 a {
@@ -44,6 +56,7 @@ header {
     justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
     box-shadow: 10px 5px 5px pink;
     background-color: beige;
+    font-family: 'Oswald', sans-serif;
 }
 header nav ul{
     list-style: none; /*saca el punteado*/
@@ -51,6 +64,7 @@ header nav ul{
     flex-direction: row;
     gap: 75px;
     border: 1px solid black;
+    font-family: 'Lobster', cursive;
 
 }
 h1{ 
