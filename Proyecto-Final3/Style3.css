@@ -20,37 +20,56 @@ body{
     background-color: rgba(66, 161, 130, 0.933);
 }
 
-header{
+/*header{
     display: flex;
+    flex-direction: row;
     height: auto;
     width: 100%;
     position: relative;
+}*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    background-color: rgb(219, 219, 199);
 }
 
 .logo{
+    display: flex;
+    align-items: center;
+
     width: 30%;
+
     background-color: rgba(211, 119, 206, 0.459);
-    text-align: center;
     color: black;
     font-size: xx-large;
     font-family: 'Monoton', cursive;
-    margin: 0 30 px;
     padding: 15px 50px; 
     font-weight: bold;
 }
 
-.navbar{
+/*.navbar{
     width: 80%;
     background-color: rgba(214, 218, 180, 0.908);
     display: flex;
-}
+}*/
 
-header nav ul li {
+/*header nav ul li {
     display: inline-block;
     list-style: none;
     text-align: center;
     padding: 25px;
    
+}*/
+
+header nav ul {
+    list-style: none; 
+    display: flex; 
+    flex-direction: row;
+    align-items:center;
+    gap: 75px;
 }
 
 header nav ul li a {
@@ -77,7 +96,7 @@ main{
     flex-direction: column;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 25px;
+    margin-top: 10px;
    
 }
 .pano{
@@ -174,16 +193,13 @@ h3{
 /*-------------------------------------------------------------*/
 
 footer{
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
     background-color: rgb(223, 162, 214);
     bottom: 0;
     width: 100%;
     height: 50px;
-}
-
-footer div  a{
-    text-decoration: none;
-    border: 2px solid white;
-    border-radius: 25px;
-    
 }
