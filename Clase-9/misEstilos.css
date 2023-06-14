@@ -1,0 +1,43 @@
+.colorRojo {
+    background-color: red;
+}
+
+.colorAzul {
+    background-color: blue;
+}
+
+.colorVerde {
+    background-color: green;
+}
+
+.divCuadrado {
+    width: 250px;
+    height: 250px;
+    /* Borde General para todo el elemento */
+    border: 4px solid black;
+    /* Padding general */
+    padding: 50px;
+    /* Padding de dos valores: 50px => arriba y abajo, 20px => izquierda y derecha */
+    padding: 50px 20px;
+    /* Padding de 4 valores => en el sentido de las agujas del reloj (ARRIBA - DERECHA - ABAJO - IZQUIERDA) */
+    padding: 10px 50px 150px 300px;
+    /* Margin general */
+    margin: 50px;
+    margin: 50px 80px;
+    margin: 10px 50px 150px 300px;
+    /*display: inline;*/
+}
+
+a {
+    display: block;
+}
+
+.enlaceOcultable {
+    display: none;
+}
+
+/* COMIENZO DE FLEXBOX */
+header {
+    display: flex;
+    flex-direction: column-reverse;
+}
