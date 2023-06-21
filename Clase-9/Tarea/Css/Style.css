@@ -66,3 +66,7 @@ a{
 .lab{
     padding: 20px;
 }
+.colorRojo{
+    color: rgb(32, 28, 30);
+    font-size: 48px;
+}
