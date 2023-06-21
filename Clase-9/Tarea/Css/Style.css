@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./bg-palm.jpg);
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+div ul{
+    list-style: none;
+}
+div ul li{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: beige;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
