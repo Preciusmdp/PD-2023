@@ -13,6 +13,9 @@ div{
     justify-content: center;
     flex-direction: row;
 }
+.links{
+    align-items: baseline;
+}
 div ul{
     list-style: none;
 }
@@ -23,7 +26,9 @@ div ul li{
     padding-right: 100px;
     background-color: beige;
 }
-
+div ul li a{
+    text-decoration: none;
+}
 .footer{
     display: flex;
     justify-content: center;
