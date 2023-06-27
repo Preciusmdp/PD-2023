@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* imagen de fondo*/
 body{
     background-image: url(./bg-palm.jpg);
     background-size: cover;
 }
 
 
-
+/* header*/
 div{
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@ div{
 .principal{
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     margin-top: 60px;
 }
 h1{
@@ -27,14 +27,14 @@ h1{
 }
 
 
-
+/*main*/
 
 div ul{
     list-style: none;
 }
 div ul li{
     border: 2px solid rgb(230, 230, 221);
-    border-radius: 15px;
+    border-radius: 25px;
     padding-left: 10px;
     padding-right: 100px;
     padding-top: 10px;
@@ -44,7 +44,7 @@ div ul li{
 }
 div ul li a{
     text-decoration: none;
-    padding: 150px;
+    padding: 100px;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -52,8 +52,12 @@ div ul li a{
 a{
  margin-left: 100px;
 }
+.colorVerde{
+    color: rgb(27, 196, 70);
+    font-size: 15px;
+}
 
-
+/* footer*/
 
 .footer{
     display: flex;
@@ -61,12 +65,11 @@ a{
     position: absolute;
     bottom: 0;
     width: 100%;
-    margin-bottom: 25px;
 }
 .lab{
     padding: 20px;
 }
-.colorRojo{
-    color: rgb(32, 28, 30);
-    font-size: 48px;
+.colorGris{
+    color: rgb(59, 56, 58);
+    font-size: 36px;
 }
