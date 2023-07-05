@@ -38,4 +38,10 @@
     }
 }
 
-/*Las media query deberian ir siempre a lo ultimo*/
+@media (min-width: 577px) and (max-width: 757px) {
+    .divCuadrado{
+        display: none;
+    }
+}
+
+/*Las media query deberian ir siempre a lo ultimo para que no se sobreescriba */
