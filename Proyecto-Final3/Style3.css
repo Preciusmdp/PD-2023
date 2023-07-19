@@ -190,6 +190,14 @@ h3{
     transform: scale(1.30);
 }
 
+.ubicacion {
+    background-color: rgb(236, 229, 219);
+    color: rgb(0, 2, 2);
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: small
+}
 /*-------------------------------------------------------------*/
 
 footer{
